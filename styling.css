@@ -1,0 +1,36 @@
+:root {
+    --light-bluish: #4EBFC1;
+    --dark-bluish: #107196;
+    --black: #09090a;
+    --white: #f6fdfd;
+    --greenish-color: #19AB76;
+
+
+}
+html {
+    font-family: "Helvetica", sans-serif;
+    color: var(--black);
+   
+}
+body {
+    margin: 20px;
+    padding: 15px;
+    background-color: var(--light-bluish)
+
+}
+table, th, td {
+    border: 1.5px;
+    padding: .5 em;
+}
+.places {
+    display: flex;
+    justify-content: stretch;
+    background-color: var(--dark-bluish);
+    border:var(--black);
+    
+}
+footer {
+    margin: 2px;
+    padding: 10px;
+    background-color: var(--greenish-color);
+}
