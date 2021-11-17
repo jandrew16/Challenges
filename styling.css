@@ -27,11 +27,12 @@ table, th, td {
     justify-content: stretch;
     background-color: var(--dark-bluish);
     border:var(--black);
+}
 .centered {
     text-align: center;
 }
     
-}
+
 footer {
     margin: 2px;
     padding: 10px;
